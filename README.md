@@ -3,9 +3,10 @@
 ### 1. Requirements
 + Docker installed (to run docker-compose)
 + Make installed to run commands from Makefile
++ Golang-migrate installed to run migrations locally (optional)
++ Swaggo/swag to generate swagger docs
 
 ## 2. Getting started
-
 ### 2.1 Create environment:
     - Create .env file copying .example.env
     - Add custom 'CURRENCIES_API_KEY' to access forex API 
